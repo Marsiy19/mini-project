@@ -63,7 +63,7 @@ const Header = () => {
 
             </Drawer>
 
-            <button onClick={openColse} className='bg-blue-600 px-6 py-4 font-bold rounded-md text-xl text-white transition duration-300 active:scale-110'  >Записаться</button>
+            <button onClick={openColse} className='bg-blue-600 px-6 py-4 font-bold btn rounded-md text-xl text-white transition duration-300 active:scale-110'  >Записаться</button>
 
         </div>
 
