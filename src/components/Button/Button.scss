@@ -1,0 +1,16 @@
+.btn {
+    background-color: #086CF9 ;
+    padding: 15px 45px;
+    color: #FFF;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: 0.3s ease;
+    &:hover {
+        background-color: #FFF;
+        color: #086CF9;
+    }
+    &:active {
+        scale: .9;
+    }
+}

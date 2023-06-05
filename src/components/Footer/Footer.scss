@@ -1,0 +1,29 @@
+.footer {
+    width: 100%;
+    height: 50vh;
+    background-image: url('../../assets/img/fon-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width:935px) {
+    .footer {
+        height: 90vh;
+    }
+    
+}
+
+
+@media screen and (max-width:456px) {
+    .footer {
+        height: 95vh;
+        .container {
+            .location {
+                Iframe {
+                    width: 300px;
+                }
+            }
+        }
+    }
+    
+}

@@ -1,0 +1,50 @@
+.header {
+    background-color: #fff;
+    .header__elements {
+
+        .menu {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            text-decoration: none;
+            list-style: none;
+            color: #111;
+            a {
+                transition: 0.3s ease;
+                &:hover {
+                    color: #086CF9;
+                }
+            }
+        }
+
+        .menu__phone {
+            display: none;
+            font-weight: 700;
+            color: #086CF9;
+            i {
+                cursor: pointer;
+            }
+
+        }
+    }
+}
+
+
+@media screen and (max-width:1024px) {
+    .header {
+        .header__elements {
+            .menu {
+                display: none;
+            }
+            .btn {
+                display: none;
+            }
+            .menu__phone {
+                font-size: 35px;
+                display: flex;
+                gap: 40px;
+            }   
+    }
+    
+}
+}

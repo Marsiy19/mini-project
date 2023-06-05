@@ -1,0 +1,115 @@
+.kurs__container {
+    
+    .content {
+        .content__text {
+            font-size: 50px;
+            font-weight: 700;
+            padding-bottom: 20px;
+        }
+        .sections {
+            .kurs {
+                height: 500px;
+                transition: 0.3s ease;
+                &:hover {
+                    scale: 0.9;
+                    box-shadow: 0 20px 15px rgba(36, 24, 249, 0.84);
+                }
+            }
+            
+        }
+
+    }
+}
+
+
+@media screen and (max-width:993px) {
+    .kurs__container {
+        .content {
+            .sections {
+
+                overflow-x: auto;
+                .kurs {
+                    height: 450px;
+                }
+                .kurs__angl {
+                    margin-left: 220px;
+                }
+            }
+        }
+    }
+    
+}
+
+@media screen and (max-width:718px) {
+    .kurs__container {
+        .content {
+            .sections {
+
+                .kurs__angl {
+                    margin-left: 250px;
+                }
+            }
+        }
+    }
+    
+}
+@media screen and (max-width:700px) {
+    .kurs__container {
+        .content {
+            .sections {
+
+                .kurs__angl {
+                    margin-left: 300px;
+                }
+            }
+        }
+    }
+    
+}
+@media screen and (max-width:636px) {
+    .kurs__container {
+        .content {
+            .sections {
+
+                .kurs__angl {
+                    margin-left: 350px;
+                }
+            }
+        }
+    }
+    
+}
+@media screen and (max-width:570px) {
+    .kurs__container {
+        .content {
+            .content__text {
+                font-size: 30px;
+            }
+            .sections {
+                .kurs {
+                    h1 {
+                        font-size: 30px;
+                    }
+                }
+
+                .kurs__angl {
+                    margin-left: 400px;
+                }
+            }
+        }
+    }
+    
+}
+@media screen and (max-width:510px) {
+    .kurs__container {
+        .content {
+            .sections {
+
+                .kurs__angl {
+                    margin-left: 500px;
+                }
+            }
+        }
+    }
+    
+}
